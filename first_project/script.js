@@ -55,7 +55,7 @@ const personalMovieDatabase = {
         //     }
         // };
         
-        let genres = prompt("Введите жанры черех запятую", '')
+        let genres = prompt("Введите жанры черех запятую", '').toLowerCase();
 
             if (genres === '' || genres === null) {
                 console.log('Вы ввели некорректные данные');
